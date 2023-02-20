@@ -9,9 +9,6 @@ Module Module1
             Console.WriteLine("Enter Name : ", index1)
             name1(index1) = Console.ReadLine()
 
-            Console.WriteLine("Enter marks  : ", index1)
-            marks1(index1) = Console.ReadLine()
-
             Total1 = Total1 + marks1(index1)
         Next
 
@@ -24,6 +21,6 @@ Module Module1
         Console.WriteLine("Total marks : " + Str(Total1))
 
         Console.ReadKey()
+End Sub
 
-
-    End Sub
+End Module Module1
